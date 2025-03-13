@@ -1,5 +1,7 @@
 package org.andersen.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.*;
 
 /**
@@ -8,6 +10,7 @@ import java.util.*;
  * Time: O((V+E) logV)
  * Space: O(E+V)
  */
+@Service
 public class ShortestPathFinderService {
 
     /**

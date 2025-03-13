@@ -1,5 +1,7 @@
 package org.andersen.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.*;
 
 /**
@@ -7,6 +9,7 @@ import java.util.*;
  * The graph can contain disconnected components.
  * The time complexity of the graphHasCycle method is O(E+V), and space complexity is O(E+V)
  */
+@Service
 public class CycleDetectorService {
 
     /**
